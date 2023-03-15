@@ -1,0 +1,9 @@
+{
+  "id": "ebdeb511-c246-47de-bbe7-c1d29784969e",
+  "name": "sabor",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

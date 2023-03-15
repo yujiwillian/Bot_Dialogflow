@@ -1,0 +1,111 @@
+{
+  "id": "818f104e-9d9f-48ec-b7dd-fc6000adb915",
+  "name": "promocao",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "promocao-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "dd7a58d8-9536-4c5b-a276-0a0b342cf12e",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "efa3e660-5b47-4b17-a179-902c8dba21ee",
+          "name": "color",
+          "required": false,
+          "dataType": "@sys.color",
+          "value": "$color",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Ok. A promoção do dia é:"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Portuguesa - R$39,99",
+                  "subtitle": "Molho de tomate, mussarela, presunto, palmito, ervilha e ovo",
+                  "event": {
+                    "name": "promocao"
+                  },
+                  "type": "list"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "title": "Coca-Cola - R$10,00",
+                  "type": "list",
+                  "event": {
+                    "name": "promocao"
+                  },
+                  "subtitle": "2 litros"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Vai querer?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

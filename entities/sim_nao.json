@@ -1,0 +1,9 @@
+{
+  "id": "1b92da95-ceee-49c2-91f2-7cd7739fbc1f",
+  "name": "sim_nao",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

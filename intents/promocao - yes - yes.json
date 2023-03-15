@@ -1,0 +1,63 @@
+{
+  "id": "49ab0c29-0e3f-4a4a-b18c-ccafe95c9194",
+  "parentId": "88d2acb6-92aa-42ad-8b7b-6f97e50508d9",
+  "rootParentId": "818f104e-9d9f-48ec-b7dd-fc6000adb915",
+  "name": "promocao - yes - yes",
+  "auto": true,
+  "contexts": [
+    "promocao-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "promocao.promocao-yes.promocao-yes-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Ok, o que vai querer:"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "Portuguesa - R$49,00",
+                    "4 Queijos - R$39,00",
+                    "Carne - R$34,00",
+                    "Suco 500ml - R$08,00",
+                    "Coca-cola 2 litros - R$15,00"
+                  ],
+                  "title": "Description title"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

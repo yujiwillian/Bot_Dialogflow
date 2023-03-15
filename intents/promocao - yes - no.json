@@ -1,0 +1,99 @@
+{
+  "id": "69f750dc-0d41-4c75-b973-34003c4d720f",
+  "parentId": "88d2acb6-92aa-42ad-8b7b-6f97e50508d9",
+  "rootParentId": "818f104e-9d9f-48ec-b7dd-fc6000adb915",
+  "name": "promocao - yes - no",
+  "auto": true,
+  "contexts": [
+    "promocao-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "promocao.promocao-yes.promocao-yes-no",
+      "affectedContexts": [
+        {
+          "name": "promocao-yes-no-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7ae0ac2c-5cce-49ba-9c8e-95dfc3c5f89b",
+          "name": "nome",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "value": "$nome",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Certo!\nMe fale o nome de quem vai receber:"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1fdb09e0-6701-415f-99d9-2893b757b63b",
+          "name": "endereco",
+          "required": true,
+          "dataType": "@sys.address",
+          "value": "$endereco",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Me diga o endereço:"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1642019d-1107-48e5-9337-6c11fce63ff6",
+          "name": "total",
+          "required": true,
+          "dataType": "@sys.currency-name",
+          "value": "$total",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Perfeito!\n\nQuem vai receber: $nome\nEndereço da entrega: $endereco\nPedido: 1 Pizza Portuguesa e 1 coca-cola - R$49,99\n\nA entrega irá ocorrer em 40 minutos. \n\nConsegui te ajudar?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

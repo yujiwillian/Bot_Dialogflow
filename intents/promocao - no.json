@@ -1,0 +1,68 @@
+{
+  "id": "77c8a4dc-013a-4f9f-b676-3a9abd2180b0",
+  "parentId": "818f104e-9d9f-48ec-b7dd-fc6000adb915",
+  "rootParentId": "818f104e-9d9f-48ec-b7dd-fc6000adb915",
+  "name": "promocao - no",
+  "auto": true,
+  "contexts": [
+    "promocao-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "promocao.promocao-no",
+      "affectedContexts": [
+        {
+          "name": "promocao-no-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "O que vai querer?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Nossas pizzas",
+                  "text": [
+                    "Portuguesa - R$49,00",
+                    "4 Queijos - R$39,00",
+                    "Carne - R$34,00",
+                    "Suco 500ml - R$08,00",
+                    "Coca-cola 2 litros - R$15,00"
+                  ],
+                  "type": "description"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

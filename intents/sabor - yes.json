@@ -1,0 +1,36 @@
+{
+  "id": "349caba8-1793-4e68-8abb-0fc2e41e8d7b",
+  "parentId": "21e01e6e-cf6f-4a59-81b5-7bcc772d9c0d",
+  "rootParentId": "818f104e-9d9f-48ec-b7dd-fc6000adb915",
+  "name": "sabor - yes",
+  "auto": true,
+  "contexts": [
+    "sabor-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "promocao.promocao-no.promocao-no-custom.sabor-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

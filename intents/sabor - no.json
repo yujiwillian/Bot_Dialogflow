@@ -1,0 +1,94 @@
+{
+  "id": "ea867284-7413-4c69-a577-16105f8b7ca3",
+  "parentId": "21e01e6e-cf6f-4a59-81b5-7bcc772d9c0d",
+  "rootParentId": "818f104e-9d9f-48ec-b7dd-fc6000adb915",
+  "name": "sabor - no",
+  "auto": true,
+  "contexts": [
+    "sabor-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "promocao.promocao-no.promocao-no-custom.sabor-no",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "115bb0b3-7f70-4db1-93bb-dc378382468f",
+          "name": "nome",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "value": "$nome",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Qual o nome de quem vai receber o pedido?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3dd88b3e-9596-43ff-8a3f-5911841f14c4",
+          "name": "cep",
+          "required": true,
+          "dataType": "@cep",
+          "value": "$cep",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Qual o cep de entrega?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "484b714c-e527-47e0-b514-586a91d5cf3a",
+          "name": "total",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "value": "$total",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Ok, então quem vai receber:\n\nNome: $nome\nCEP: $cep\n\nPedido: $sabor e $bebida"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

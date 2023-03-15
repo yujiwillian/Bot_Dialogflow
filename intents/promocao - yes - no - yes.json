@@ -1,0 +1,39 @@
+{
+  "id": "96b572ae-3a77-431c-9d5a-e0d8995d9c3e",
+  "parentId": "69f750dc-0d41-4c75-b973-34003c4d720f",
+  "rootParentId": "818f104e-9d9f-48ec-b7dd-fc6000adb915",
+  "name": "promocao - yes - no - yes",
+  "auto": true,
+  "contexts": [
+    "promocao-yes-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "promocao.promocao-yes.promocao-yes-no.promocao-yes-no-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Que bom que te ajudei!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

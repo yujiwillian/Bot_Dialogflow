@@ -1,0 +1,20 @@
+[
+  {
+    "value": "Sim",
+    "synonyms": [
+      "Sim",
+      "s",
+      "yes",
+      "ajudou"
+    ]
+  },
+  {
+    "value": "Não",
+    "synonyms": [
+      "Não",
+      "n",
+      "ñ",
+      "não ajudou"
+    ]
+  }
+]

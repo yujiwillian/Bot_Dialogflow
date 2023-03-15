@@ -1,0 +1,114 @@
+[
+  {
+    "id": "58380ab7-cd2c-44f9-b448-5ba44b5e841e",
+    "data": [
+      {
+        "text": "coca",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "6a4657e4-bee5-4037-a3b3-8d81e5f96b9d",
+    "data": [
+      {
+        "text": "coca-cola",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "e226dff1-f94d-40a9-b86a-7cf7783a590c",
+    "data": [
+      {
+        "text": "refrigerante",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "068997dc-146f-45d7-9d1b-510df0b83d2f",
+    "data": [
+      {
+        "text": "suco",
+        "meta": "@bebida",
+        "alias": "bebida",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "8efdb76c-8932-4c59-90e8-b3872191e364",
+    "data": [
+      {
+        "text": "carne",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "33816a34-2f63-49d8-9cef-d14b0dade142",
+    "data": [
+      {
+        "text": "queijo",
+        "meta": "@sabor",
+        "alias": "sabor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "838ef0ee-2664-4501-a7f0-208be064fa41",
+    "data": [
+      {
+        "text": "4 queijos",
+        "meta": "@sabor",
+        "alias": "sabor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "c8260dbf-de08-4877-8a87-7358d5426cbf",
+    "data": [
+      {
+        "text": "portuguesa",
+        "meta": "@sabor",
+        "alias": "sabor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

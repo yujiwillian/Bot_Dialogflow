@@ -1,0 +1,44 @@
+{
+  "id": "88d2acb6-92aa-42ad-8b7b-6f97e50508d9",
+  "parentId": "818f104e-9d9f-48ec-b7dd-fc6000adb915",
+  "rootParentId": "818f104e-9d9f-48ec-b7dd-fc6000adb915",
+  "name": "promocao - yes",
+  "auto": true,
+  "contexts": [
+    "promocao-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "promocao.promocao-yes",
+      "affectedContexts": [
+        {
+          "name": "promocao-yes-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Perfeito!\nAlgo mais?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

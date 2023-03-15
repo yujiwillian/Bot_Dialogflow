@@ -1,0 +1,53 @@
+[
+  {
+    "id": "48e67f8d-c86d-4600-849c-ebdaf5b39e65",
+    "data": [
+      {
+        "text": "Promoção",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "2cf8cea1-d52c-4568-9f65-f525ccab3b77",
+    "data": [
+      {
+        "text": "Promoção ",
+        "userDefined": false
+      },
+      {
+        "text": "do",
+        "meta": "@sys.color",
+        "alias": "color",
+        "userDefined": false
+      },
+      {
+        "text": " dia",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "f770d4a0-b3f5-4f13-86a8-b130c068571f",
+    "data": [
+      {
+        "text": "3",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

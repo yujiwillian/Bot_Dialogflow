@@ -1,0 +1,72 @@
+{
+  "id": "0e0202ba-24be-4c03-befa-395e5eba4b6e",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e9d4d3f8-c40e-448e-a357-0d7493fd13cc",
+          "name": "nome",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "value": "$nome",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Olá! Eu sou o Botizin - El Pizzaiolo 👋😁\n\nMe diga o seu nome:"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d6d3a002-d180-493c-b5c9-ae683b2e95a0",
+          "name": "menu",
+          "required": true,
+          "dataType": "@menu",
+          "value": "$menu",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Muito prazer $nome. \nEscolha o que você quer:\n\n1 - Cardápio\n2 - Pedido\n3 - Promoção do dia"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

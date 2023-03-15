@@ -1,0 +1,112 @@
+{
+  "id": "21e01e6e-cf6f-4a59-81b5-7bcc772d9c0d",
+  "parentId": "77c8a4dc-013a-4f9f-b676-3a9abd2180b0",
+  "rootParentId": "818f104e-9d9f-48ec-b7dd-fc6000adb915",
+  "name": "sabor",
+  "auto": true,
+  "contexts": [
+    "promocao-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "promocao.promocao-no.promocao-no-custom",
+      "affectedContexts": [
+        {
+          "name": "sabor-followup",
+          "lifespan": 10
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1d50390c-b06c-4aab-85c3-d4cef807f59a",
+          "name": "bebida",
+          "required": false,
+          "dataType": "@bebida",
+          "value": "$bebida",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "07e3e14f-ba4b-4123-9d2c-3f62e2cceda1",
+          "name": "sabor",
+          "required": false,
+          "dataType": "@sabor",
+          "value": "$sabor",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "cd6cf02e-b791-4138-96cf-aa21677e8bfe",
+          "name": "nome",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "value": "$nome",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Qual o nome de quem vai pegar o pedido?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "bffcfdc7-8cb2-45aa-9f18-ff6c61417cda",
+          "name": "cep",
+          "required": true,
+          "dataType": "@cep",
+          "value": "$cep",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Qual o cep? (Digite neste formato: 12345-123)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Você pediu: $sabor e $bebida\n\nVamos entregar para:\nNome: $nome\nCep: $cep\n\nAguarde 40 minutos para a entrega!\n\nMuito obrigado e volte sempre 👋😁"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

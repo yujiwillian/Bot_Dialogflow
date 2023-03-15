@@ -1,0 +1,9 @@
+{
+  "id": "1a72ce79-6146-4132-bd53-f356f638af45",
+  "name": "cep",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": true,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": false
+}
